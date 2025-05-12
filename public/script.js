@@ -5,7 +5,12 @@ familyTree.onUpdated(function(args){
     //args.insert //new family members
     //args.remove //removed family members
     //args.update //updated family members
-    console.log(args)
+    fetch('/api/update', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(args)
+    });
+    // console.log(args)
 });
 
 
