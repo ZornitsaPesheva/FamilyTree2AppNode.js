@@ -1,0 +1,17 @@
+       [
+           { 
+                "id": 1, 
+                "fatherId": 2, 
+                "motherId": 3,  
+                "spouseIds": [4], 
+                "siblingIds": [5, 6], 
+                "childIds": [7],
+                "name": "Me" 
+            }, 
+            { "id": 2, "name": "Father" },
+            { "id": 3, "name": "Mother" },
+            { "id": 4, "childIds": [7], "name": "Spouse" },
+            { "id": 5, "name": "Sibling 1" },
+            { "id": 6, "name": "Sibling 2" },
+            { "id": 7, "name": "Child" }
+       ]
